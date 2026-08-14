@@ -1,0 +1,52 @@
+{
+    "state": "enabled",
+    "conditions": {
+        "clientAppTypes": [
+            "exchangeActiveSync",
+            "browser",
+            "mobileAppsAndDesktopClients",
+            "other"
+        ],
+        "applications": {
+            "includeApplications": ["AllAgentIdResources"],
+            "excludeApplications": [],
+            "includeUserActions": [],
+            "includeAuthenticationContextClassReferences": []
+        },
+        "users": {
+            "includeUsers": ["403223fb-71db-4c33-a21c-9d3e21231038"],
+            "excludeUsers": [
+                "4838b89b-a967-4bf8-8a73-cf452cb091c7",
+                "c95ce04b-162b-44a0-85fd-3c6e9dc7d0e6"
+            ],
+            "includeGroups": [],
+            "excludeGroups": [],
+            "includeRoles": [],
+            "excludeRoles": []
+        },
+        "platforms": {
+            "includePlatforms": ["all"],
+            "excludePlatforms": []
+        },
+        "times": {
+            "includeAllTimes": true,
+            "includeDays": null,
+            "excludeDays": {
+                "daysOfWeek": ["monday", "tuesday", "wednesday", "thursday", "friday"],
+                "timeZone": "UTC",
+                "startTime": "08:00:00",
+                "endTime": "18:00:00",
+                "allDay": false
+            },
+            "includeRange": null,
+            "excludeRange": null
+        }
+    },
+    "grantControls": {
+        "operator": "OR",
+        "builtInControls": ["block"],
+        "customAuthenticationFactors": [],
+        "termsOfUse": [],
+        "authenticationStrength": null
+    }
+}
