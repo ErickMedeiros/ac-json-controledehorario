@@ -17,12 +17,6 @@ A política bloqueia o acesso de usuários fora do horário comercial permitido.
 
 ### Usuários
 
-| Tipo | ID |
-|------|----|
-| Incluído | `403223fb-71db-4c33-a21c-9d3e21231038` |
-| Excluído | `4838b89b-a967-4bf8-8a73-cf452cb091c7` |
-| Excluído | `c95ce04b-162b-44a0-85fd-3c6e9dc7d0e6` |
-
 > ⚠️ Atualize os IDs de usuário/grupo conforme o seu ambiente antes de aplicar a política.
 
 ---
